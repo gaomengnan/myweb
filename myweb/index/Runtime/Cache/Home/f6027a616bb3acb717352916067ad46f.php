@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><font color="red">这是我的第一个thinkphp测试</font>

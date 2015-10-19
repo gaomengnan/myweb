@@ -1,0 +1,88 @@
+[ 2015-10-13T16:07:28+08:00 ] 127.0.0.1 /myweb/admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+
+[ 2015-10-13T16:07:28+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2015-10-13T16:07:34+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001380s ]
+
+[ 2015-10-13T16:07:34+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Main/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2015-10-13T16:07:34+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2015-10-13T16:07:37+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2015-10-13T16:07:39+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Index/edit/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2015-10-13T16:07:39+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Index/edit/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2015-10-13T16:09:48+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+
+[ 2015-10-13T16:13:22+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2015-10-13T16:19:45+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2015-10-13T16:21:29+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+
+[ 2015-10-13T16:27:52+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2015-10-13T16:30:27+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2015-10-13T16:39:40+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2015-10-13T16:39:42+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Index/edit/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+

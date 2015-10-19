@@ -1,0 +1,120 @@
+[ 2015-09-30T14:53:37+08:00 ] 127.0.0.1 /myweb/admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: 无法加载模块:Login
+
+[ 2015-09-30T14:53:52+08:00 ] 127.0.0.1 /myweb/admin.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Login
+
+[ 2015-09-30T14:54:17+08:00 ] 127.0.0.1 /myweb/admin.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载模块:Login
+
+[ 2015-09-30T14:54:19+08:00 ] 127.0.0.1 /myweb/admin.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:Login
+
+[ 2015-09-30T14:54:25+08:00 ] 127.0.0.1 /myweb/admin.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:Index
+
+[ 2015-09-30T16:40:50+08:00 ] 127.0.0.1 /myweb/admin.php/View/Login/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:View
+
+[ 2015-09-30T16:40:50+08:00 ] 127.0.0.1 /myweb/admin.php/View/Login/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+ERR: 无法加载模块:View
+
+[ 2015-09-30T16:40:50+08:00 ] 127.0.0.1 /myweb/admin.php/View/Login/images/avtar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+ERR: 无法加载模块:View
+
+[ 2015-09-30T17:29:24+08:00 ] 127.0.0.1 /myweb/admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+ERR: 无法加载模块:Login
+
+[ 2015-09-30T18:29:18+08:00 ] 127.0.0.1 /myweb/admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Login
+
+[ 2015-09-30T18:31:44+08:00 ] 127.0.0.1 /myweb/admin.php/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+ERR: 无法加载模块:Assets
+
+[ 2015-09-30T20:38:17+08:00 ] 127.0.0.1 /myweb/admin.php/myweb/admin.php/Admin/Login/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Myweb
+
+[ 2015-09-30T20:38:43+08:00 ] 127.0.0.1 /myweb/admin.php/myweb/admin.php/Admin/Login/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+ERR: 无法加载模块:Myweb
+
+[ 2015-09-30T20:38:48+08:00 ] 127.0.0.1 /myweb/admin.php/myweb/admin.php/Admin/Login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+ERR: 无法加载模块:Myweb
+
+[ 2015-09-30T20:38:53+08:00 ] 127.0.0.1 /myweb/admin.php/myweb/admin.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+ERR: 无法加载模块:Myweb
+
+[ 2015-09-30T20:44:04+08:00 ] 127.0.0.1 /myweb/admin.php/admin.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2015-09-30T20:44:21+08:00 ] 127.0.0.1 /myweb/admin.php/myweb/admin.php/Admin/Login/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:Myweb
+
+[ 2015-09-30T20:44:37+08:00 ] 127.0.0.1 /myweb/admin.php/myweb/admin.php/Admin/Login/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+ERR: 无法加载模块:Myweb
+
+[ 2015-09-30T20:44:39+08:00 ] 127.0.0.1 /myweb/admin.php/myweb/admin.php/Admin/Login/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+ERR: 无法加载模块:Myweb
+
+[ 2015-09-30T21:38:15+08:00 ] 127.0.0.1 /myweb/admin.php/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: 无法加载模块:Assets
+

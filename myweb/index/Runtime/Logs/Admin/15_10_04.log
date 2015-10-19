@@ -1,0 +1,2378 @@
+[ 2015-10-04T11:34:23+08:00 ] 127.0.0.1 /myweb/admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+
+[ 2015-10-04T11:34:23+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2015-10-04T11:34:31+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2015-10-04T11:34:31+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = '普通用户' AND `username` LIKE '%%' LIMIT 1   [ RunTime:0.0326s ]
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given /var/www/html/myweb/index/Admin/Controller/IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `admin` WHERE `status` = '普通用户' AND `username` LIKE '%%' ORDER BY id LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2015-10-04T11:34:31+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2015-10-04T11:34:54+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined variable: res /var/www/html/myweb/index/Runtime/Cache/Admin/97cb6e059ff10e048fef69586651da75.php 第 305 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2015-10-04T11:34:57+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2015-10-04T11:35:48+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2015-10-04T11:35:49+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: res /var/www/html/myweb/index/Runtime/Cache/Admin/97cb6e059ff10e048fef69586651da75.php 第 305 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2015-10-04T11:35:51+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2015-10-04T11:36:01+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/reset-password.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+ERR: 非法操作:reset-password
+
+[ 2015-10-04T11:41:29+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: res /var/www/html/myweb/index/Runtime/Cache/Admin/97cb6e059ff10e048fef69586651da75.php 第 159 行.
+NOTIC: [8] Undefined variable: res /var/www/html/myweb/index/Runtime/Cache/Admin/97cb6e059ff10e048fef69586651da75.php 第 166 行.
+NOTIC: [8] Undefined variable: res /var/www/html/myweb/index/Runtime/Cache/Admin/97cb6e059ff10e048fef69586651da75.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2015-10-04T11:41:32+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: res /var/www/html/myweb/index/Runtime/Cache/Admin/97cb6e059ff10e048fef69586651da75.php 第 159 行.
+NOTIC: [8] Undefined variable: res /var/www/html/myweb/index/Runtime/Cache/Admin/97cb6e059ff10e048fef69586651da75.php 第 166 行.
+NOTIC: [8] Undefined variable: res /var/www/html/myweb/index/Runtime/Cache/Admin/97cb6e059ff10e048fef69586651da75.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2015-10-04T11:41:36+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = '普通用户' AND `username` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given /var/www/html/myweb/index/Admin/Controller/IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `admin` WHERE `status` = '普通用户' AND `username` LIKE '%%' ORDER BY id LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2015-10-04T11:41:45+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2015-10-04T11:51:30+08:00 ] 127.0.0.1 /myweb/admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `status` = '普通用户' AND `username` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given /var/www/html/myweb/index/Admin/Controller/IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `admin` WHERE `status` = '普通用户' AND `username` LIKE '%%' ORDER BY id LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2015-10-04T11:51:34+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+
+[ 2015-10-04T11:52:12+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: res /var/www/html/myweb/index/Runtime/Cache/Admin/97cb6e059ff10e048fef69586651da75.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2015-10-04T11:52:38+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/User/runadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+ERR: 非法操作:runadd
+
+[ 2015-10-04T11:53:13+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: res /var/www/html/myweb/index/Runtime/Cache/Admin/97cb6e059ff10e048fef69586651da75.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2015-10-04T11:53:28+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/runadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+
+[ 2015-10-04T11:54:51+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: res /var/www/html/myweb/index/Runtime/Cache/Admin/97cb6e059ff10e048fef69586651da75.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2015-10-04T11:54:53+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-10-04T12:56:30+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2015-10-04T12:56:42+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2015-10-04T12:59:42+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 170 行.
+NOTIC: [8] Undefined variable: res /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2015-10-04T13:00:36+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 170 行.
+NOTIC: [8] Undefined variable: res /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2015-10-04T13:00:59+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 171 行.
+NOTIC: [8] Undefined variable: res /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 310 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2015-10-04T13:02:29+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 171 行.
+NOTIC: [8] Undefined variable: res /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 310 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2015-10-04T13:02:39+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2015-10-04T13:03:50+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 171 行.
+NOTIC: [8] Undefined variable: res /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 310 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2015-10-04T13:04:02+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/runaddtitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2015-10-04T13:11:40+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+ERR: 非法操作:addtitle.
+
+[ 2015-10-04T13:11:54+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 172 行.
+NOTIC: [8] Undefined index: id /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 311 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2015-10-04T13:25:05+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 173 行.
+NOTIC: [8] Undefined index: id /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 312 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2015-10-04T13:33:07+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 183 行.
+NOTIC: [8] Undefined index: id /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 322 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2015-10-04T13:39:17+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 177 行.
+NOTIC: [8] Undefined index: id /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2015-10-04T13:45:28+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+ERR: 非法操作:addtitle.
+
+[ 2015-10-04T13:45:32+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 178 行.
+NOTIC: [8] Undefined index: id /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 317 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2015-10-04T13:45:59+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 178 行.
+NOTIC: [8] Undefined index: id /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 317 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2015-10-04T13:47:48+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 179 行.
+NOTIC: [8] Undefined index: id /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2015-10-04T13:47:58+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 179 行.
+NOTIC: [8] Undefined index: id /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2015-10-04T13:48:16+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 177 行.
+NOTIC: [8] Undefined index: id /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2015-10-04T13:48:54+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 174 行.
+NOTIC: [8] Undefined index: id /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 313 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2015-10-04T13:49:20+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 172 行.
+NOTIC: [8] Undefined index: id /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 311 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2015-10-04T15:00:47+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 172 行.
+NOTIC: [8] Undefined index: id /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 311 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2015-10-04T15:00:56+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/runaddtitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2015-10-04T15:17:30+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+
+[ 2015-10-04T15:17:58+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+
+[ 2015-10-04T15:19:13+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+
+[ 2015-10-04T15:19:20+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+
+[ 2015-10-04T15:20:03+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-10-04T15:20:15+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: pid /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 172 行.
+NOTIC: [8] Undefined index: id /var/www/html/myweb/index/Runtime/Cache/Admin/03226dea15c805b2f0fd44b5a150a397.php 第 311 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001713s ]
+
+[ 2015-10-04T15:21:37+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/runaddtitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0009s ]
+SQL: INSERT INTO `title` (`caption`,`content`,`cid`,`answer`,`time`) VALUES ('跨栏有多高','A 1M 
+B 2M 
+C 3M 
+D 4M  
+    ','7','1','1443943297') [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2015-10-04T15:21:38+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2015-10-04T15:41:14+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+ERR: 1146:Table 'online.exam_relation' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_relation`
+ERR: 1146:Table 'online.exam_relation' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_relation`
+
+[ 2015-10-04T15:42:37+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+
+[ 2015-10-04T15:45:01+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+
+[ 2015-10-04T15:45:03+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+
+[ 2015-10-04T15:45:27+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+
+[ 2015-10-04T15:45:28+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+
+[ 2015-10-04T15:45:43+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' /var/www/html/myweb/ThinkPHP/Common/functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `title`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2015-10-04T15:45:45+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' /var/www/html/myweb/ThinkPHP/Common/functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `title`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2015-10-04T15:45:46+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' /var/www/html/myweb/ThinkPHP/Common/functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `title`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2015-10-04T15:45:52+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' /var/www/html/myweb/ThinkPHP/Common/functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `title`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2015-10-04T15:45:55+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' /var/www/html/myweb/ThinkPHP/Common/functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `title`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2015-10-04T15:47:19+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' /var/www/html/myweb/ThinkPHP/Common/functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `title`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2015-10-04T15:52:45+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `title`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: parent_id /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 161 行.
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1  
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1  
+
+[ 2015-10-04T15:55:02+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: cid /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 161 行.
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1  
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1  
+
+[ 2015-10-04T15:55:04+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: cid /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 161 行.
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1  
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1  
+
+[ 2015-10-04T15:55:06+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: cid /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 161 行.
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1  
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1  
+
+[ 2015-10-04T15:55:08+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: cid /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 161 行.
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1  
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1  
+
+[ 2015-10-04T15:55:44+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' /var/www/html/myweb/ThinkPHP/Common/functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `exam` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `exam`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2015-10-04T15:56:09+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' /var/www/html/myweb/ThinkPHP/Common/functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `title`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: relationData /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2015-10-04T16:02:04+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `title`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: parent_id /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2015-10-04T16:02:06+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `title`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: parent_id /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2015-10-04T16:02:08+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `title`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: parent_id /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2015-10-04T16:02:36+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `title`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: parent_id /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2015-10-04T16:02:56+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `title` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: parent_id /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2015-10-04T16:02:57+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `title` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: parent_id /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2015-10-04T16:03:00+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `title` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: parent_id /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2015-10-04T16:05:18+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `title` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: parent_id /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2015-10-04T16:05:20+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `title` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: parent_id /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2015-10-04T16:05:21+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `title` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `title` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: parent_id /var/www/html/myweb/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `title` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2015-10-04T16:06:55+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2015-10-04T16:07:27+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-10-04T16:09:31+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2015-10-04T16:09:32+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2015-10-04T16:09:54+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2015-10-04T16:09:56+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2015-10-04T16:14:31+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2015-10-04T16:14:32+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2015-10-04T16:14:34+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2015-10-04T16:23:36+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2015-10-04T16:39:26+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+
+[ 2015-10-04T16:50:58+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2015-10-04T16:51:02+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2015-10-04T16:51:03+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-10-04T16:52:25+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+ERR: 1146:Table 'online.exam_relation' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exam_relation`
+
+[ 2015-10-04T16:54:23+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2015-10-04T16:58:40+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2015-10-04T16:58:42+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2015-10-04T16:59:06+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2015-10-04T17:03:24+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+
+[ 2015-10-04T17:03:28+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2015-10-04T17:03:30+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2015-10-04T17:03:32+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2015-10-04T17:03:35+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2015-10-04T17:03:40+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2015-10-04T17:03:42+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2015-10-04T17:04:58+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+
+[ 2015-10-04T17:15:55+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2015-10-04T17:17:26+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2015-10-04T17:19:03+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2015-10-04T17:19:18+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2015-10-04T17:19:34+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2015-10-04T17:35:49+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2015-10-04T17:35:52+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/del/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2015-10-04T17:35:53+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-10-04T17:36:05+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2015-10-04T17:36:09+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2015-10-04T17:36:32+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2015-10-04T17:39:12+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2015-10-04T17:39:43+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2015-10-04T17:39:46+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/deletetotrach/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+
+[ 2015-10-04T17:50:30+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+
+[ 2015-10-04T17:51:28+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2015-10-04T17:51:34+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/deletetotrach/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2015-10-04T17:51:35+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2015-10-04T17:52:56+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2015-10-04T18:05:20+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+
+[ 2015-10-04T18:05:42+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2015-10-04T18:07:51+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/runaddtitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2015-10-04T18:07:53+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2015-10-04T18:07:57+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/deletetotrach/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2015-10-04T18:07:58+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2015-10-04T18:08:09+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2015-10-04T18:08:23+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2015-10-04T18:10:16+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+
+[ 2015-10-04T18:10:19+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2015-10-04T18:10:37+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+
+[ 2015-10-04T18:11:16+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/deletetotrach/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2015-10-04T18:20:33+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2015-10-04T18:20:46+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2015-10-04T18:20:51+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2015-10-04T18:20:56+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2015-10-04T18:22:20+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2015-10-04T18:22:37+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2015-10-04T18:22:39+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2015-10-04T18:22:45+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2015-10-04T18:22:48+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2015-10-04T18:23:00+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2015-10-04T18:23:02+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2015-10-04T18:23:17+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2015-10-04T18:23:18+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2015-10-04T18:23:20+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+
+[ 2015-10-04T18:37:20+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2015-10-04T18:37:22+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2015-10-04T18:37:24+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2015-10-04T18:38:51+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002746s ]
+
+[ 2015-10-04T18:38:52+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2015-10-04T18:38:54+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2015-10-04T18:46:57+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2015-10-04T18:47:05+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2015-10-04T18:47:10+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2015-10-04T18:50:18+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2015-10-04T18:50:21+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2015-10-04T18:50:22+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+
+[ 2015-10-04T18:50:24+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+
+[ 2015-10-04T18:50:31+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/deletetotrach/id/2/type/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2015-10-04T18:50:32+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2015-10-04T18:50:45+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/deletetotrach/id/2/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2015-10-04T18:50:46+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2015-10-04T18:50:51+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2015-10-04T18:57:30+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2015-10-04T18:57:51+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2015-10-04T18:57:54+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2015-10-04T18:57:57+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/deletetotrach/id/2/type/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2015-10-04T18:58:31+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/deletetotrach/id/2/type/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2015-10-04T18:58:32+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2015-10-04T18:58:37+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/deletetotrach/id/2/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2015-10-04T18:58:38+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2015-10-04T18:58:40+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2015-10-04T18:58:58+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/deletetotrach/id/2/type/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2015-10-04T18:59:00+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2015-10-04T18:59:01+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2015-10-04T18:59:11+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/deletetotrach/id/2/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2015-10-04T18:59:12+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2015-10-04T18:59:15+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2015-10-04T18:59:25+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2015-10-04T19:02:31+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2015-10-04T19:02:33+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2015-10-04T19:02:36+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/realdel/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2015-10-04T19:02:41+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2015-10-04T19:27:04+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2015-10-04T19:29:20+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2015-10-04T19:29:23+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2015-10-04T19:29:27+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2015-10-04T19:29:34+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/realdel/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2015-10-04T19:29:35+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2015-10-04T19:29:38+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2015-10-04T19:29:43+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2015-10-04T19:30:58+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/runaddtitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-10-04T19:31:00+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2015-10-04T19:31:04+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/deletetotrach/id/3/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+
+[ 2015-10-04T19:31:06+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2015-10-04T19:31:08+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2015-10-04T19:31:15+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-10-04T19:35:26+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2015-10-04T19:36:35+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2015-10-04T19:36:41+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+
+[ 2015-10-04T19:36:44+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2015-10-04T19:37:19+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2015-10-04T19:37:36+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2015-10-04T19:37:52+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2015-10-04T19:37:58+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2015-10-04T19:43:57+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2015-10-04T19:44:03+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/realtrach/action/empty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+ERR: 非法操作:realtrach
+
+[ 2015-10-04T19:44:50+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/realtrach/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: 非法操作:realtrach
+
+[ 2015-10-04T19:44:54+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2015-10-04T19:44:57+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2015-10-04T19:44:59+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/realdel/action/empty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2015-10-04T19:45:00+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2015-10-04T19:45:00+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+
+[ 2015-10-04T19:45:12+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+
+[ 2015-10-04T19:45:17+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2015-10-04T19:48:04+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2015-10-04T19:48:34+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2015-10-04T19:48:37+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2015-10-04T19:48:38+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2015-10-04T19:48:42+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2015-10-04T19:48:44+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2015-10-04T19:49:00+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2015-10-04T19:49:05+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2015-10-04T19:49:21+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/runaddtitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2015-10-04T19:49:22+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2015-10-04T19:49:25+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/deletetotrach/id/4/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2015-10-04T19:49:26+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2015-10-04T19:49:27+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2015-10-04T19:49:29+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/realdel/action/empty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2015-10-04T19:50:20+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2015-10-04T19:50:22+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/emptytrach/action/empty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2015-10-04T19:50:23+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2015-10-04T19:50:25+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2015-10-04T19:50:28+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+
+[ 2015-10-04T19:51:16+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/runaddtitle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-10-04T19:51:17+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2015-10-04T19:51:19+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/deletetotrach/id/5/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2015-10-04T19:51:20+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2015-10-04T19:51:23+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2015-10-04T19:51:48+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2015-10-04T23:05:28+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2015-10-04T23:05:28+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2015-10-04T23:05:35+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2015-10-04T23:05:35+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2015-10-04T23:05:42+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2015-10-04T23:05:43+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+
+[ 2015-10-04T23:05:45+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-10-04T23:05:46+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2015-10-04T23:05:48+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2015-10-04T23:05:50+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2015-10-04T23:06:04+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2015-10-04T23:06:07+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/deletetotrach/id/1/type/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2015-10-04T23:06:08+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2015-10-04T23:06:10+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2015-10-04T23:06:13+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/deletetotrach/id/1/type/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2015-10-04T23:06:14+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2015-10-04T23:06:17+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2015-10-04T23:06:29+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2015-10-04T23:06:33+08:00 ] 127.0.0.1 /myweb/admin.php/Admin/Exam/addtitlelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
